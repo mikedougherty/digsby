@@ -54,6 +54,11 @@ Dependency Troubleshooting
 ==========================
 TODO
 
+1. 
+ - **Problem**: `error: Unable to find vcvarsall.bat`
+ - **Solution**: `set VX90COMNTOOLS=%VS100COMNTOOLS%`
+ - **More Info**: [Stack Overflow](http://stackoverflow.com/questions/2667069/cannot-find-vcvarsall-bat-when-running-a-python-script)
+
 Running Digsby
 ==============
 `python Digsby.py`
